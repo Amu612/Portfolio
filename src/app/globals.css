@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(0 0% 2%);
+  --color-foreground: hsl(0 0% 98%);
+  --color-card: hsl(0 0% 3%);
+  --color-card-foreground: hsl(0 0% 98%);
+  --color-primary: hsl(191 97% 77%);
+  --color-primary-foreground: hsl(0 0% 9%);
+  --color-secondary: hsl(270 50% 15%);
+  --color-secondary-foreground: hsl(0 0% 98%);
+  --color-muted: hsl(0 0% 15%);
+  --color-muted-foreground: hsl(0 0% 65%);
+  --color-accent: hsl(191 97% 77%);
+  --color-accent-foreground: hsl(0 0% 9%);
+  --color-border: hsl(0 0% 14%);
+  --color-input: hsl(0 0% 14%);
+  --color-ring: hsl(191 97% 77%);
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    cursor: none;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: hsl(191 97% 77% / 0.3);
+    color: hsl(191 97% 90%);
+  }
+}
+
+/* ── Glassmorphism utilities ─────────────────────────────────────── */
+.glass {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9);
+}
+
+/* ── Custom scrollbar ────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #67E8F9;
+}
+
+/* ── GSAP fade-up starting state ─────────────────────────────────── */
+.gsap-fade-up {
+  will-change: transform, opacity;
+}
