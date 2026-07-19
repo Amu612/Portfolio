@@ -1,4 +1,4 @@
-# Amulya Anamdasu — AI/ML Engineer • Full-Stack Developer 
+# Amulya Anamdasu — AI/ML Engineer • Full-Stack Developer
 
 A modern, interactive portfolio built to showcase my journey as an **AI/ML Engineer**, **Full-Stack Developer**, and **two-time Smart India Hackathon Finalist**. The portfolio combines immersive UI, 3D graphics, smooth animations, and a scalable backend to present projects, research, achievements, and technical expertise in a premium product experience.
 
@@ -45,7 +45,7 @@ The application is designed with a clean, futuristic aesthetic inspired by moder
 
 # 📂 Project Structure
 
-```text
+````text
 Portfolio/
 │
 ├── backend/
@@ -160,7 +160,7 @@ Amulya_Portfolio/
 ├── vercel.json                  # Vercel deployment & security header settings
 └── README.md                    # Project documentation
 >>>>>>> 2a145c7 (Update portfolio homepage and backend seed data)
-```
+````
 
 ---
 
@@ -260,8 +260,8 @@ http://localhost:3000
 
 # 👨‍💻 About Me
 
-I'm an AI/ML Engineer and Full-Stack Developer passionate about building intelligent applications, immersive web experiences, and scalable software systems. My interests include Artificial Intelligence, Machine Learning, Full-Stack Development, Geospatial Technologies, Digital Twins, Computer Vision, and Generative AI.
-=======
+# I'm an AI/ML Engineer and Full-Stack Developer passionate about building intelligent applications, immersive web experiences, and scalable software systems. My interests include Artificial Intelligence, Machine Learning, Full-Stack Development, Geospatial Technologies, Digital Twins, Computer Vision, and Generative AI.
+
 ## 🚀 Pipeline & Deployment Architecture
 
 ```mermaid
@@ -275,19 +275,23 @@ graph TD
 ```
 
 ### CI/CD Workflow (`.github/workflows/ci.yml`)
+
 Runs automatically on push or pull request to verify compilation integrity:
-*   **Backend Job:** Sets up Python environment, installs dependencies, migrates database, and triggers Django backend test suites.
-*   **Frontend Job:** Installs Node dependencies and validates Next.js deployment builds to catch type mismatches or styling bugs.
+
+- **Backend Job:** Sets up Python environment, installs dependencies, migrates database, and triggers Django backend test suites.
+- **Frontend Job:** Installs Node dependencies and validates Next.js deployment builds to catch type mismatches or styling bugs.
 
 ---
 
 ## 💻 Local Installation & Setup
 
 ### Prerequisites
-*   [Node.js 20+](https://nodejs.org/)
-*   [Python 3.11+](https://www.python.org/)
+
+- [Node.js 20+](https://nodejs.org/)
+- [Python 3.11+](https://www.python.org/)
 
 ### 1. Backend Setup
+
 1.  Navigate to the backend directory:
     ```bash
     cd backend
@@ -315,6 +319,7 @@ Runs automatically on push or pull request to verify compilation integrity:
     ```
 
 ### 2. Frontend Setup
+
 1.  Navigate back to the project root directory:
     ```bash
     cd ..
@@ -335,6 +340,7 @@ Runs automatically on push or pull request to verify compilation integrity:
 ## 🌟 Showcased Engineering Works
 
 Detailed interactive project sections highlight Amulya Anamdasu's technical achievements:
+
 1.  **NeedMint AI (Market Demand Intelligence Engine):** Evidence-backed market demand intelligence and unmet need discovery research platform using parallel multi-agent evaluation consensus.
 2.  **InsightAI (AI Business Intelligence Agent):** Multi-agent orchestration simulating data analysis agents.
 3.  **CO₂ Digital Twin:** Interactive earth-mapping simulator for carbon emission analytics.
@@ -345,5 +351,5 @@ Detailed interactive project sections highlight Amulya Anamdasu's technical achi
 8.  **Greenwashing Detector:** Interactive simulator mapping the NLP extension logic.
 
 ---
+
 Created and maintained by [Amulya Anamdasu](mailto:amulyaa0612@gmail.com).
->>>>>>> 2a145c7 (Update portfolio homepage and backend seed data)
