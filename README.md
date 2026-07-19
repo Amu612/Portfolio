@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Amulya Anamdasu — AI/ML Engineer • Full-Stack Developer 
 
 A modern, interactive portfolio built to showcase my journey as an **AI/ML Engineer**, **Full-Stack Developer**, and **two-time Smart India Hackathon Finalist**. The portfolio combines immersive UI, 3D graphics, smooth animations, and a scalable backend to present projects, research, achievements, and technical expertise in a premium product experience.
@@ -165,7 +164,6 @@ Amulya_Portfolio/
 
 ---
 
-<<<<<<< HEAD
 # 🚀 Features
 
 ## Interactive Hero
