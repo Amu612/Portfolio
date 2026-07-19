@@ -1,36 +1,189 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amulya Anamdasu — AI/ML Engineer • Full-Stack Developer • Smart India Hackathon Finalist
 
-## Getting Started
+A modern, interactive portfolio built to showcase my journey as an **AI/ML Engineer**, **Full-Stack Developer**, and **two-time Smart India Hackathon Finalist**. The portfolio combines immersive UI, 3D graphics, smooth animations, and a scalable backend to present projects, research, achievements, and technical expertise in a premium product experience.
 
-First, run the development server:
+The application is designed with a clean, futuristic aesthetic inspired by modern technology products while maintaining excellent performance, accessibility, and responsiveness across all devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+# 🌐 Live Portfolio
+
+**Portfolio:** https://amulya-portfolio-livid.vercel.app
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Three.js
+- React Three Fiber
+- React Drei
+- Framer Motion
+- GSAP
+- Lenis
+
+## Backend
+
+- Django
+- Django REST Framework
+- Simple JWT
+- PostgreSQL
+- SQLite
+
+## DevOps
+
+- Docker
+- GitHub Actions
+- Vercel
+
+---
+
+# 📂 Project Structure
+
+```text
+Portfolio/
+│
+├── backend/
+│   ├── portfolio_api/
+│   ├── core/
+│   ├── projects/
+│   ├── skills/
+│   ├── achievements/
+│   ├── certifications/
+│   ├── experience/
+│   ├── contact/
+│   ├── analytics/
+│   └── blog/
+│
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── styles/
+│   └── utils/
+│
+├── public/
+├── .github/
+├── package.json
+├── vercel.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Interactive Hero
 
-## Learn More
+- 3D Neural Core
+- Dynamic particle system
+- Mouse-responsive interactions
+- Animated lighting and depth
 
-To learn more about Next.js, take a look at the following resources:
+## Modern User Experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Custom animated cursor
+- Scroll-triggered animations
+- Smooth page transitions
+- Interactive project showcase
+- Elegant typography
+- Responsive layouts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance
 
-## Deploy on Vercel
+- Optimized rendering
+- GPU-accelerated animations
+- Lazy loading
+- Image optimization
+- Progressive Web App support
+- Lighthouse-friendly configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Backend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- RESTful API architecture
+- JWT authentication
+- Modular Django applications
+- Clean data models
+- Admin dashboard
+- Easily extensible structure
+
+---
+
+# 💼 Featured Projects
+
+The portfolio showcases several AI, Machine Learning, Full-Stack, and Geospatial projects, including:
+
+- InsightAI
+- CO₂ Digital Twin Dashboard
+- GeoAnushasan
+- VillageCraft
+- Learning Path Recommendation System
+- Greenwashing Detector
+- BLemish
+
+Each project includes detailed descriptions, technologies used, challenges solved, and interactive visual presentations.
+
+---
+
+# ⚙️ Running Locally
+
+## Clone the repository
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
+---
+
+## Backend
+
+```bash
+cd backend
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
+```
+
+---
+
+## Frontend
+
+```bash
+npm install
+
+npm run dev
+```
+
+The application will be available locally at:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 👨‍💻 About Me
+
+I'm an AI/ML Engineer and Full-Stack Developer passionate about building intelligent applications, immersive web experiences, and scalable software systems. My interests include Artificial Intelligence, Machine Learning, Full-Stack Development, Geospatial Technologies, Digital Twins, Computer Vision, and Generative AI.
+
+---
+
+## ⭐ If you like this project, consider giving it a star!
