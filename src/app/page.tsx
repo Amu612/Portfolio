@@ -126,6 +126,26 @@ const PROJECTS = [
     gradFrom: "#001a0a",
     gradTo: "#000a05",
   },
+  {
+    id: "needmint",
+    index: "008",
+    title: "NeedMint AI",
+    subtitle: "Market Demand Intelligence Engine",
+    description:
+      "A premium research platform designed to extract, cluster, score, and validate customer feedback datasets into high-fidelity, evidence-backed market opportunities using parallel multi-agent evaluation consensus.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "React",
+      "Tailwind CSS v4",
+      "LLMs",
+      "Vector Embeddings",
+    ],
+    github: "https://github.com/Amu612/NeedMint-AI",
+    accent: "#34d399",
+    gradFrom: "#001a11",
+    gradTo: "#000805",
+  },
 ];
 
 const SKILLS = [
@@ -760,7 +780,7 @@ function ContactSection() {
             amulyaa0612@gmail.com
           </Link>
           <Link
-            href="https://drive.google.com/file/d/169BSqxGYLXDsq6kQEcdMvJk_0v5NDRGf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1O3iElQ6bMsbFDl6INTh0I285_ytbZj_E/view?usp=sharing"
             target="_blank"
             className="hover-trigger flex items-center gap-3 px-10 py-5 rounded-full border border-white/20 text-white font-bold text-base hover:border-cyan-400/60 hover:bg-cyan-950/20 transition-colors"
           >

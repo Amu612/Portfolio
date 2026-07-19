@@ -62,6 +62,20 @@ class Command(BaseCommand):
             ProjectTechnology.objects.create(project=p2, name='PyTorch')
             ProjectTechnology.objects.create(project=p2, name='FastAPI')
 
+        p3, created = Project.objects.get_or_create(
+            title='NeedMint AI',
+            slug='needmint-ai',
+            description='Evidence-backed market demand intelligence and unmet need discovery research platform using parallel multi-agent evaluation consensus.',
+            is_featured=True,
+            github_url='https://github.com/Amu612/NeedMint-AI'
+        )
+        if created:
+            ProjectTechnology.objects.create(project=p3, name='Python')
+            ProjectTechnology.objects.create(project=p3, name='FastAPI')
+            ProjectTechnology.objects.create(project=p3, name='React')
+            ProjectTechnology.objects.create(project=p3, name='Tailwind CSS v4')
+            ProjectTechnology.objects.create(project=p3, name='LLMs')
+
         # Skills
         Skill.objects.get_or_create(name='Python', category='AI/ML', proficiency=5)
         Skill.objects.get_or_create(name='TensorFlow', category='AI/ML', proficiency=4)
