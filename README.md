@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio built to showcase my journey as an **AI/ML Engineer**, **Full-Stack Developer**, and **two-time Smart India Hackathon Finalist**. The portfolio combines immersive UI, 3D graphics, smooth animations, and a scalable backend to present projects, research, achievements, and technical expertise in a premium product experience.
 
-The application is designed with a clean, futuristic aesthetic inspired by modern technology products while maintaining excellent performance, accessibility, and responsiveness across all devices.
+The application is designed with a clean, futuristic aesthetic inspired by modern technology products while maintaining good performance, accessibility, and responsiveness across all devices.
 
 ---
 
@@ -104,15 +104,6 @@ Portfolio/
 - Progressive Web App support
 - Lighthouse-friendly configuration
 
-## Backend
-
-- RESTful API architecture
-- JWT authentication
-- Modular Django applications
-- Clean data models
-- Admin dashboard
-- Easily extensible structure
-
 ---
 
 # 💼 Featured Projects
@@ -183,7 +174,3 @@ http://localhost:3000
 # 👨‍💻 About Me
 
 I'm an AI/ML Engineer and Full-Stack Developer passionate about building intelligent applications, immersive web experiences, and scalable software systems. My interests include Artificial Intelligence, Machine Learning, Full-Stack Development, Geospatial Technologies, Digital Twins, Computer Vision, and Generative AI.
-
----
-
-## ⭐ If you like this project, consider giving it a star!
